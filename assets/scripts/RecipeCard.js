@@ -131,7 +131,7 @@ class RecipeCard extends HTMLElement {
       let stars = Math.round(ratingValue);
 
       let ratingImg = document.createElement('img');
-      ratingImg.setAttribute('src', '/assets/images/icons/' + String(stars) + '-star.svg');
+      ratingImg.setAttribute('src', 'assets/images/icons/' + String(stars) + '-star.svg');
       ratingImg.setAttribute('alt', String(stars) + ' stars');
       rating.appendChild(ratingImg);
 
